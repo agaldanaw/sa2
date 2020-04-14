@@ -1,0 +1,4 @@
+/root/sa2/sa-auth-ms/src/main/java/sa/user/JAXRSConfiguration.java
+/root/sa2/sa-auth-ms/src/main/java/sa/user/model/User.java
+/root/sa2/sa-auth-ms/src/main/java/sa/user/service/UserService.java
+/root/sa2/sa-auth-ms/src/main/java/sa/user/resource/UserResource.java
