@@ -7,6 +7,6 @@ services:
       SHOW_URLS: 'true'
       AUTH_URL: 'http://ec2-54-89-16-73.compute-1.amazonaws.com'
       AUTH_PORT: '4000'
-      AUTH_USERS_ENTRY: 'sa-auth-ms/resources/users'
+      AUTH_USERS_ENTRY: '/users'
     ports:
       - '5000:5000'
