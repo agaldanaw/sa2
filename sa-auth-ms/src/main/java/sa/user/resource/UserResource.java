@@ -57,7 +57,7 @@ public class UserResource {
     @DELETE
     @Path("{id}")
     public Response deleteUser(@PathParam("id") int id) {
-        int deletedUserId = userService.deleteUser(id);
+        User deletedUserId = userService.deleteUser(id);
         response = Response.status(Response.Status.OK);
         response.entity(deletedUserId);
         return response.build();
