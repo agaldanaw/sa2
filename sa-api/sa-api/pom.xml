@@ -12,11 +12,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </properties>
-    <repository>
-        <id>mulesoft-releases</id>
-        <name>MuleSoft Repository</name>
-        <url>https://repository.mulesoft.org/releases/</url> 
-    </repository>
     <dependencies>
         <dependency>
             <groupId>org.mule.tools.javascript</groupId>
