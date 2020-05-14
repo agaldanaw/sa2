@@ -5,7 +5,7 @@ services:
     environment:
       PORT: '5000'
       SHOW_URLS: 'true'
-      AUTH_URL: 'ec2-54-80-170-37.compute-1.amazonaws.com'
+      AUTH_URL: 'ec2-23-22-190-144.compute-1.amazonaws.com'
       AUTH_PORT: '4000'
       AUTH_USERS_ENTRY: 'sa-auth-ms/resources/users'
     ports:
